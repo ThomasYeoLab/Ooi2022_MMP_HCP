@@ -13,5 +13,5 @@ The contents of this folder include:
 The contents of this folder include 4 subfolders. Each subfolder contains feature matrices from each modality arranged in the form of #features x #subjects. Due to size limitations on github, the files are zipped using `tar`. To unzip the folders run `./features/CBIG_MMP_unpack_splitfiles.sh`. This assumes all features are zipped into tar files of max size 40MB in a folder `<feature_name>_split`.
 1. `t1` - Metrics of cortical thickness, area and volume of each parcel of the Schaefer 400 parcellations 
 2. `tbss` - Vectorized TBSS skeleton of each subject containing FA, MD, AD, RD, OD, ICVF and ISOVF metrics.
-3. `tractography` - Upper triangle of the 400x400 structural connectivity matrix of each subject containing stream count (log transformed), stream length, FA, MD, AD, RD, OD, ICVF and ISOVF metrics.
-4. `fmri` - Upper triangle of the 419x419 functional connectivity matrix, calculated with Pearson's correlation. Contains matrices generated from resting state fMRI, working memory, social, gambling, language and motor task fMRI. 
+3. `tractography` - Lower triangle of the 400x400 structural connectivity matrix of each subject containing stream count (log transformed), stream length, FA, MD, AD, RD, OD, ICVF and ISOVF metrics.
+4. `fmri` - Lower triangle of the 400x400 functional connectivity matrix, calculated with Pearson's correlation. Contains matrices generated from resting state fMRI, working memory, social, gambling, language and motor task fMRI. 
