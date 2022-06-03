@@ -26,8 +26,8 @@ This folder contains a mat file showing the assignment of subjects into training
 This folder contains results of behavior prediction from each random initialization. They are saved in a 3D matrix of form #behaviours x #splits x #models. See the README in the folder for more information.
 
 # UPDATES
-Release v0.0.1 (28/2/2022): Initial release of HCP repository for Ooi2022_MMP project
-Update v0.0.2 (6/3/2022): Update component scores with clean version (not estimated from subjects used in prediction)
+- Release v0.0.1 (28/2/2022): Initial release of HCP repository for Ooi2022_MMP project
+- Update v0.0.2 (6/3/2022): Update component scores with clean version (not estimated from subjects used in prediction)
 
 # BUGS and QUESTIONS
 Please contact Leon Ooi at leonooiqr@gmail.com and Thomas Yeo at yeoyeo02@gmail.com.
