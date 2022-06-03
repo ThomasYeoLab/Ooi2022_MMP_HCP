@@ -7,7 +7,7 @@ This repository contains the data release for the **HCP** data used in the follo
 We extracted features derived from anatomical T1, diffusion and functional imaging, and compared their ability in predicting behaviour at an individual level using the HCP and ABCD using 3 regression models. We found that functional MRI gave the best prediction results, regardless of type of regression or behaviour. The combination of these modaliteis through stacking improved predictions of cognition, but not other aspects of behaviour. Additionally, combing features of functional MRI performs as well as combining all features from all modalities. 
 
 ## Data release
-This repository contains input data and results from our study for the HCP dataset. The main repository for the codes used in this project can be found here: [github: Standalone_Ooi2022_MMP](https://github.com/ThomasYeoLab/Standalone_Ooi2022_MMP). One may either 
+This repository contains input data and results from our study for the HCP dataset. The main repository for the codes used in this project can be found here: [Standalone_Ooi2022_MMP](https://github.com/ThomasYeoLab/Standalone_Ooi2022_MMP). One may either 
 1. Replicate the study by running the regression code wrappers found in the main repository using the features and training-test splits provided in this repository.
 2. Make comparisons to the benchmarks provided in the paper by utilizing the same set of subjects and training-test splits to compare your own algorithm to the results achieved in this paper.
 
@@ -27,6 +27,7 @@ This folder contains results of behavior prediction from each random initializat
 
 # UPDATES
 Release v0.0.1 (28/2/2022): Initial release of HCP repository for Ooi2022_MMP project
+Update v0.0.2 (6/3/2022): Update component scores with clean version (not estimated from subjects used in prediction)
 
 # BUGS and QUESTIONS
 Please contact Leon Ooi at leonooiqr@gmail.com and Thomas Yeo at yeoyeo02@gmail.com.
