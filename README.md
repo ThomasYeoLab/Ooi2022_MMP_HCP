@@ -29,6 +29,7 @@ This folder contains results of behavior prediction from each random initializat
 - Release v0.0.1 (28/2/2022): Initial release of HCP repository for Ooi2022_MMP project
 - Update v0.0.2 (3/6/2022): Update component scores with clean version (not estimated from subjects used in prediction)
 - Update v0.0.3 (14/6/2022): Update features_gambling with correct features (previous was a duplicate of features_motor)
+- Update v0.0.4 (4/8/2022): Update results using component scores estimated from subjects not used in prediction
 
 # BUGS and QUESTIONS
 Please contact Leon Ooi at leonooiqr@gmail.com and Thomas Yeo at yeoyeo02@gmail.com.
