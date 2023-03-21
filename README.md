@@ -1,7 +1,7 @@
 # Comparison of individualized behavioral predictions across anatomical, diffusion and functional connectivity MRI (MMP)
 This repository contains the data release for the **HCP** data used in the following study.
 ## REFERENCE
-* Ooi, L.Q.R., Chen, J., Zhang, S., Tam, A., Li, J., Dhamala, E., Zhou, J.H., Holmes, A.J., Yeo, B.T. [Comparison of individualized behavioral predictions across anatomical, diffusion and functional connectivity MRI](https://doi.org/10.1016/j.neuroimage.2022.119636). Neuroimage, 2022.
+* Ooi, L.Q.R., Chen, J., Zhang, S., Tam, A., Li, J., Dhamala, E., Zhou, J.H., Holmes, A.J., Yeo, B.T.T. [Comparison of individualized behavioral predictions across anatomical, diffusion and functional connectivity MRI](https://doi.org/10.1016/j.neuroimage.2022.119636). Neuroimage, 2022.
 
 ## BACKGROUND
 We extracted features derived from anatomical T1, diffusion and functional imaging, and compared their ability in predicting behaviour at an individual level using the HCP and ABCD using 3 regression models. We found that functional MRI gave the best prediction results, regardless of type of regression or behaviour. The combination of these modaliteis through stacking improved predictions of cognition, but not other aspects of behaviour. Additionally, combing features of functional MRI performs as well as combining all features from all modalities. 
